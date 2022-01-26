@@ -1,6 +1,6 @@
 # This is an example mapping
 f = open("purchases.txt","r")  # open file, read-only
-o = open("Arla.txt", "w") # open file, write
+o = open("madhu.txt", "w") # open file, write
 for line in f:  
     dataList = line.strip().split("    ") 
     print (dataList )
